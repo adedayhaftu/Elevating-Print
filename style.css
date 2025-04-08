@@ -1,0 +1,634 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+body {
+    font-size: 140%;
+    overflow-x: hidden;
+}
+
+.top-green {
+    text-align: center;
+    font-family: Poppins;
+    border: solid 1px black;
+    border-color: transparent;
+    height: 50px;
+    background-color: rgb(133, 187, 133);
+    color: white;
+}
+
+.navbar-print {
+    display: flex;
+    margin-left: 10%;  
+    margin-top: -25px;
+  
+
+}
+
+.navbar {
+    font-family: Poppins;
+    margin-left: 20%;
+    gap: 40px;
+    display: flex;
+    margin-top: 25px;
+}
+.navbar i{
+    margin-left: 250px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-page {
+    background-image: url(Images/couch.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    object-fit: fill;
+    text-align: center;
+    color: white;
+}
+
+#head {
+    margin-top: 250px;
+    font-size: 80px;
+    font-family: Poppins;
+}
+#rasi-home-paragraph{
+    font-family: Poppins;
+}
+
+.home-page button {
+    color: white;
+    background-color: rgba(122, 112, 112, 0.9);
+    width: 15%;
+    height: 6%;
+    border-radius: 10px;
+    border: transparent;
+    font-size: 20px;
+}
+
+#india-print {
+    font-size: 40px;
+    text-align: center;
+    font-family: Poppins;
+    
+}
+
+.rasi-screen-print {
+    display: flex;
+    gap: 14%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.all-text {
+    font-family: Poppins;
+}
+
+.timeless-artistry-text #rasi-paragraph{
+    color: rgb(91, 207, 91);
+    font-size:110%;
+}
+
+#bed-image {
+    margin-left: 10%;
+    height: 100%;
+    width: 105%;
+    box-shadow: 10px 10px 10px 10px rgb(225, 215, 215);
+
+}  
+
+#lot-text {
+    color: gray;
+    line-height: 170%;
+    width:910px;
+}
+
+.timeless-artistry-text {}
+
+#artistry-head {
+    font-size: 230%;
+
+}
+
+.rasi-buttons {
+    gap: 50px;
+    display: flex;
+   
+}
+
+.rasi-buttons button:nth-child(1) {
+    background-color: rgb(99, 173, 99);
+    height: 50px;
+    width: 170px;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    font-size: 17px;
+}
+.rasi-buttons button:nth-child(1) i{
+    margin-left: 10px;
+    transform: rotate(45deg);
+}
+.rasi-buttons button:nth-child(2) {
+    height: 50px;
+    width: 170px;
+    border-radius: 20px;
+}
+.rasi-buttons button:nth-child(2) i{
+    margin-left: 10px;
+    transform: rotate(45deg);
+}
+.icons {
+    display: flex;
+    gap: 10%;
+    background-color: rgb(210, 219, 222);
+    padding-top: 50px;
+    padding-bottom: 45px;
+    margin-top: 10%;
+    padding-left: 7%;
+}
+
+.premium {
+    line-height: 10px;
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+#trophy{
+    font-size: 40px;
+    margin-top: 20px;
+}
+#crafted{
+    color: gray;
+    font-size: 17px;
+}
+.warranty {
+    line-height: 10px;
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+#right{
+    margin-top: 17px;
+}
+#guaranteed{
+    color: gray;
+    font-size: 17px;
+}
+.timely {
+    line-height: 10px;
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+#holding{
+    color: gray;
+    font-size: 45px;
+   margin-top: 20px;
+    
+}
+#prompt{
+    color: gray;
+    font-size: 17px;
+}
+.sustainable {
+    line-height: 10px;
+    padding-top: 20px;
+}
+#eco-friendly{
+    color: gray;
+    font-size: 17px; 
+}
+.rasi-all {
+    margin-top: 7%;
+    text-align: center;
+    font-family: Poppins;
+}
+
+#rasi-array-head {
+    font-size: 50px;
+    
+}
+
+#rasi-paragraph {
+    color: gray;
+    font-size: 20px;
+}
+
+.rasi-array {
+    font-family: Poppins;
+    margin-top: 4%;
+    display: flex;
+    gap: -20%;
+  
+}
+
+.textile {
+    margin-left: 85px;
+}
+
+#ink {
+    height: 90%;
+    width: 75%;
+    border-radius: 10px;
+
+}
+
+#textile-paragraph {
+    color: gray;
+    font-size: 17px;
+}
+
+#textile-head {}
+
+.advanced {
+    margin-left: -135px;
+}
+
+#mat {
+    height: 90%;
+    width: 105%;
+    border-radius: 10px;
+
+}
+
+#advanced-paragraph {
+    color: gray;
+    font-size: 17px;
+}
+
+#advanced-head {}
+
+.four-color {
+    margin-left: 64px;
+}
+
+#painting {
+    height: 90%;
+    width: 118%;
+    border-radius: 10px;
+}
+
+#color-paragraph {
+    color: gray;
+    font-size: 17px;
+}
+
+#color-head {}
+
+.client-praise {
+    margin-top: 15%;
+    text-align: center;
+}
+
+#client {
+    font-size: 100%;
+    font-size: 43px;
+    font-family: Poppins;
+}
+
+#client-text {
+    color: gray;
+}
+
+.industry {
+    display: flex;
+    gap: 20%;
+    margin-left: 10%;
+    font-family: Poppins;
+}
+
+.aditya {
+    display: flex;
+    gap: 20px;
+}
+#aditya-image{
+    height: 90px;
+    margin-top: 24px;
+    border-radius: 20px;
+}
+
+#aditya-head {
+    font-size: 30px;
+}
+
+#aditya-paragraph {
+    margin-top: -20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.arvind {
+    display: flex;
+    gap: 20px;
+}
+
+#arvind-head {
+    font-size: 30px;
+}
+#arvind-image{
+    height: 90px;
+    margin-top: 24px;
+    border-radius: 20px;
+}
+
+#arvind-paragraph {
+    margin-top: -20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.raymond {
+    display: flex;
+    gap: 20px;
+}
+
+#raymond-head {
+    font-size: 30px;
+}
+#raymond-image{
+    height: 90px;
+    margin-top: 24px;
+    border-radius: 20px;
+}
+
+#raymond-paragraph {
+    margin-top: -20px;
+    font-size: 20px;
+    color: gray;
+}
+
+.high-quality {
+    display: flex;
+    gap: 3.5%;
+    margin-left: 5%;
+    margin-top: 7%;
+    width: 155%;
+    font-family: Poppins;
+}
+
+.quality-text {}
+
+#quality-head {}
+
+#high-paragraph {
+    color: gray;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+#home-couch {
+    height: 90%;
+    width: 57%;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+
+.quality-logos {
+    display: flex;
+    gap: 60px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+#arvind-logo {
+    width: 10%;
+    height: 80px;
+}
+
+#gap-logo {
+    width: 10%;
+    height: 80px;
+}
+
+#myntra-logo {
+    width: 15%;
+    height: 60px;
+}
+
+#puma-logo {
+    width: 13%;
+    height: 70px;
+}
+
+#adita-logo {
+    width: 10%;
+    height: 80px;
+}
+
+#coverse-logo {
+    width: 10%;
+    height: 70px;
+}
+
+#markland-logo {
+    width: 10%;
+    height: 70px;
+}
+
+.proudest-works {
+    margin-top: 10%;
+    text-align: center;
+    font-family: Poppins;
+}
+
+#showcasing-head {
+    font-size: 45px;
+}
+
+#showcasing-paragraph {
+    font-size: 20px;
+    color: gray;
+}
+
+.showcasing-images {
+    display: flex;
+    gap: 2%;
+    margin-left: 5%;
+    margin-top: 80px;
+}
+
+#cloth-shop {
+    width: 30%;
+    height: 630px;
+    border-radius: 10px;
+}
+
+#bed-shop {
+    width: 30%;
+    height: 630px;
+    border-radius: 10px;
+}
+
+#model-cloth {
+    width: 30%;
+    height: 630px;
+    border-radius: 10px;
+}
+
+#woman-mat {
+    margin-top: 30px;
+    width: 90%;
+    height: 770px;
+    border-radius: 10px;
+}
+
+.reach-out {
+    text-align: center;
+    font-family: Poppins;
+    margin-top: 7%;
+}
+
+#reach-out-head {
+    font-size: 170%;
+}
+
+#reach-out-paragraph {
+    font-size: 70%;
+    color: gray;
+    margin-top: -1%;
+}
+
+#google-map {
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 85%;
+    height: 900px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.contacts {
+    font-family: Poppins;
+    position: relative;
+    background-color:white;
+    box-shadow: 10px 10px 10px gray;
+    padding-left: 70px;
+    border-radius: 20px;
+    width: 380px;
+    margin-left: 350px;
+    margin-top: 10%;
+
+}
+
+#contact-info {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+}
+
+#phone-number {
+    color: gray;
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+#adress-number {
+    color: gray;
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+#hours {
+    color: gray;
+    font-size: 15px;
+    margin-top: -20px;
+    padding-bottom: 80px;
+}
+.footer{
+    font-size: 18px;
+    height: 300px;
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    gap: 5%;
+    margin-top: 30%;
+    padding-top: 6%;
+    padding-left: 9%;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.phone-container{
+    display: flex;
+    gap: 20px;
+}
+.phone-container i{
+    margin-top: 40px;
+    margin-left: -8px;
+   
+}
+.address-container{
+    display: flex;
+    gap: 20px;
+}
+.address-container i{
+    margin-top: 40px;
+    margin-left: -8px;
+}
+.opening-container{
+    display: flex;
+    gap: 20px;
+}
+.opening-container i{
+    margin-top: 40px;
+    margin-left: -8px;
+}
+#best{
+    font-family:Monograma;
+}
+#best-paragraph{
+    line-height: 30px;
+}
+#accounts{
+    line-height: 45px;
+    margin-top: 10%;
+} 
+#sitemap{
+    line-height: 45px;
+    margin-top: 10%;
+}
+/* .footer img{
+    padding-top:15px;
+    border-radius:10px;
+} */
+
+.lasticons{
+    display: flex;
+    gap: 20%;
+    margin-bottom: 3%;
+    line-height: 55px;
+}
+.lasticon{
+    display: flex;
+    gap: 8%;
+}
+#head-number{
+    line-height: 25px;
+}
+.tele{
+    display: flex;
+    gap: 8%;
+}
+.secondphone{
+    display: flex;
+}
+#last-logo{
+    width: 90%;
+    margin-top: 23px;
+    height: 80%;
+    border-radius: 20px;
+}
+.copyright{
+    font-size: 18px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
